@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Kagami
 
 **A Self-Discipline Reflection Interface**
