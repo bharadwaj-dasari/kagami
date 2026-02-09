@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kagami
 
 **A Self-Discipline Reflection Interface**
@@ -132,3 +133,7 @@ The following features may be explored in future updates, provided they do not v
 
 > **Kagami does not try to improve you.**
 > **It simply reflects how you lived, so you can decide what to change.**
+=======
+# kagami
+A self-discipline reflection interface. Kagami helps you evaluate your days honestly and observe long-term patterns without the pressure of gamification, streaks, or AI coaching.
+>>>>>>> 2305f06417060e42264766cc5a9375b5978bbc31
