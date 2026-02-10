@@ -4,10 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return(
-    <h1>KAGAMI</h1>
+    <h1>KAGAMI-Still in development</h1>
   )
 }
 
