@@ -20,9 +20,9 @@ function App(){
       checkBackend();
   },[]);
   return(
-    <div>
-        <h1>Kagami</h1>
-        <p>{text}</p>
+    <div className='flex flex-col items-center justify-center min-h-screen'>
+        <h1 className="text-6xl font-heading font-bold text-kagami-accent">Kagami</h1>
+        <p className="mt-4 text-gray-500">{text}</p>
     </div>
   );
 }
