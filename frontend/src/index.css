@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 @import "tailwindcss";
 
+
 @theme {
-  /* Colors from your spec */
   --color-kagami-bg: #0E0E12;
   --color-kagami-surface: #1A1A22;
   --color-kagami-accent: #5B6CFF;
   --color-kagami-success: #3DDC97;
   --color-kagami-warning: #FFB547;
 
-  /* Typography from your spec */
-  --font-heading: "Space Grotesk", sans-serif;
+  --font-heading: "Big Shoulders", sans-serif;
   --font-body: "Inter", sans-serif;
 }
 
-/* Base styles to ensure "Calm Surfaces" */
+.kagami-grid {
+  background-color: #0E0E12;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 1px, transparent 1px);
+  background-size: 80px 100%; /* Adjust 80px to match your Figma column width */
+}
+
 :root {
   background-color: var(--color-kagami-bg);
   color: white;
@@ -22,5 +27,4 @@
 body {
   margin: 0;
   font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
 }
